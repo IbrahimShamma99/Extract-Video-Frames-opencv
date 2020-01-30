@@ -18,7 +18,7 @@ def mkdir():
     os.mkdir(frame_dir2)
 
 
-def vidtoframes(videoFile,frame_dir):
+def CreateVideoFrames(videoFile,frame_dir):
  vidcap = cv2.VideoCapture(videoFile)
  success,image = vidcap.read()
  count = 0
@@ -35,5 +35,5 @@ Video2 = VideoFile+"/"+vid2+ext
 
 if __name__ == '__main__':
     mkdir()
-    vidtoframes(Video1,frame_dir1)
-    vidtoframes(Video2,frame_dir2)
+    CreateVideoFrames(Video1,frame_dir1)
+    CreateVideoFrames(Video2,frame_dir2)
