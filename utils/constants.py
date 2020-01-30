@@ -1,0 +1,6 @@
+VideoFile = "/home/ibrahim/CV_IEEE/Data/Videos"
+FramesFile = "/home/ibrahim/CV_IEEE/Data/Frames" 
+vid1="20190724_075709[1]"
+vid2="20190724_075010[1]"
+ext = ".mp4"
+project_dir = "/home/ibrahim/Scripts/CV_IEEE/"
